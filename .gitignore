@@ -1,0 +1,14 @@
+# Python-generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local virtual environments
+.venv/
+venv/
+
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

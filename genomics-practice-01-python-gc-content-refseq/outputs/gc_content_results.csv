@@ -1,0 +1,5 @@
+gene,accession,length_nt,a_count,c_count,g_count,t_count,ambiguous_base_count,gc_count,gc_percent,gc_category
+MTHFR,NM_005957.5,7018,1498,2003,2005,1512,0,4008,57.11,Moderate GC
+ACE,NM_000789.4,4962,1041,1593,1404,924,0,2997,60.4,High GC
+AGT,NM_001382817.3,2148,484,608,565,491,0,1173,54.61,Moderate GC
+NOS3,NM_000603.5,4366,862,1415,1317,772,0,2732,62.57,High GC
