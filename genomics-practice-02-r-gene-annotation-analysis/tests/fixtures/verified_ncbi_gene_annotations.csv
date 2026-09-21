@@ -1,0 +1,5 @@
+gene,gene_id,full_name,chromosome,cytoband,chromosome_accession,start_1_based,end_1_based,strand,exon_count,ensembl_gene_id,assembly,assembly_accession,source_url,source_checked_date
+MTHFR,4524,methylenetetrahydrofolate reductase,1,1p36.22,NC_000001.11,11785723,11805964,-,13,ENSG00000177000,GRCh38.p14,GCF_000001405.40,https://www.ncbi.nlm.nih.gov/gene/4524,2026-08-25
+ACE,1636,angiotensin I converting enzyme,17,17q23.3,NC_000017.11,63477061,63498373,+,26,ENSG00000159640,GRCh38.p14,GCF_000001405.40,https://www.ncbi.nlm.nih.gov/gene/1636,2026-08-25
+AGT,183,angiotensinogen,1,1q42.2,NC_000001.11,230702523,230745583,-,6,ENSG00000135744,GRCh38.p14,GCF_000001405.40,https://www.ncbi.nlm.nih.gov/gene/183,2026-08-25
+NOS3,4846,nitric oxide synthase 3,7,7q36.1,NC_000007.14,150991017,151014588,+,28,ENSG00000164867,GRCh38.p14,GCF_000001405.40,https://www.ncbi.nlm.nih.gov/gene/4846,2026-08-25

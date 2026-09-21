@@ -31,6 +31,7 @@ reproducible code, results, interpretation, and limitations.
 | No. | Project | Language | Public data source | Methods and technical skills |
 | --- | --- | --- | --- | --- |
 | 01 | [GC-content analysis of cardiovascular and folate-pathway transcripts](genomics-practice-01-python-gc-content-refseq/) | Python | NCBI RefSeq: MTHFR, ACE, AGT, and NOS3 | API access, FASTA parsing, sequence quality control, nucleotide counting, CSV reporting, and scientific interpretation |
+| 02 | [Comparative genomic annotation and gene-transcript structure](genomics-practice-02-r-gene-annotation-analysis/) | R | NCBI Gene, GRCh38.p14, and Project 01 RefSeq results | Gene annotation, coordinate normalization, strand interpretation, data integration, comparative visualization, and reproducibility checks |
 
 ## Repository organization
 
@@ -38,6 +39,7 @@ Each project is stored in its own numbered folder:
 
 ```text
 genomics-practice-01-python-gc-content-refseq/
+genomics-practice-02-r-gene-annotation-analysis/
 ```
 
 Each project contains the analysis code, dataset documentation, reproduction
@@ -46,12 +48,22 @@ instructions, results, and relevant output files.
 ## Getting started
 
 Project 01 requires Python 3.10 or newer and uses only the Python standard
-library. No additional packages are required.
+library:
 
 ```bash
 cd genomics-practice-01-python-gc-content-refseq
 python analyze_gc_content.py --email your-real-email@example.com
 python -m unittest discover -s tests -v
+```
+
+Project 02 requires R and the `jsonlite` package for live NCBI API requests.
+Its documented real-data snapshot can be analyzed offline using base R:
+
+```bash
+Rscript -e 'install.packages("jsonlite", repos="https://cloud.r-project.org")'
+cd genomics-practice-02-r-gene-annotation-analysis
+Rscript analyze_gene_annotations.R --email your-real-email@example.com
+Rscript tests/test_gene_annotations.R
 ```
 
 Replace the example email address with your own valid email address. NCBI
@@ -64,4 +76,4 @@ recommends providing contact information with automated E-utilities requests.
 - Use versioned accession numbers where available to support reproducibility.
 - Check whether reference records are reviewed, current, or suppressed.
 - Distinguish exploratory findings from validated clinical conclusions.
-- Follow each data provider’s access, attribution, and reuse requirements.
+- Follow each data provider's access, attribution, and reuse requirements.
