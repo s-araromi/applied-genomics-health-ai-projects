@@ -1,0 +1,4 @@
+.venv/
+__pycache__/
+data/GSE19804_series_matrix.txt.gz
+data/GPL570.annot.gz
