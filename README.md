@@ -33,6 +33,7 @@ reproducible code, results, interpretation, and limitations.
 | 01 | [GC-content analysis of cardiovascular and folate-pathway transcripts](genomics-practice-01-python-gc-content-refseq/) | Python | NCBI RefSeq: MTHFR, ACE, AGT, and NOS3 | API access, FASTA parsing, sequence quality control, nucleotide counting, CSV reporting, and scientific interpretation |
 | 02 | [Comparative genomic annotation and gene-transcript structure](genomics-practice-02-r-gene-annotation-analysis/) | R | NCBI Gene, GRCh38.p14, and Project 01 RefSeq results | Gene annotation, coordinate normalization, strand interpretation, data integration, comparative visualization, and reproducibility checks |
 | 03 | [Paired-end FASTQ read quality control](genomics-practice-03-python-fastq-read-quality-control/) | Python | ENA run ERR194147, NA12878 whole-genome sequencing | Streaming FASTQ subsets, paired-read validation, Phred scores, per-cycle quality, checksums, and QC visualization |
+| 04 | [Paired GEO expression-matrix quality assessment](genomics-practice-04-r-geo-expression-quality-control/) | R | NCBI GEO GSE19804 and GPL570 | Expression-matrix parsing, paired-sample validation, distributional QC, correlations, review flags, and reproducible graphics |
 
 ## Repository organization
 
@@ -42,6 +43,7 @@ Each project is stored in its own numbered folder:
 genomics-practice-01-python-gc-content-refseq/
 genomics-practice-02-r-gene-annotation-analysis/
 genomics-practice-03-python-fastq-read-quality-control/
+genomics-practice-04-r-geo-expression-quality-control/
 ```
 
 Each project contains the analysis code, dataset documentation, reproduction
@@ -49,16 +51,13 @@ instructions, results, and relevant output files.
 
 ## Getting started
 
-Requirements and commands are documented within each project. Project 03 uses
-Python 3.10 or newer and `matplotlib`:
+Requirements and commands are documented within each project. Project 04 uses
+R 4.3 or newer and requires no external R packages:
 
 ```bash
-cd genomics-practice-03-python-fastq-read-quality-control
-python3 -m venv .venv
-source .venv/bin/activate
-python -m pip install -r requirements.txt
-python analyze_fastq_quality.py
-python -m unittest discover -s tests -v
+cd genomics-practice-04-r-geo-expression-quality-control
+Rscript analyze_geo_expression_qc.R
+Rscript tests/test_geo_expression_qc.R
 ```
 
 ## Data ethics and reproducibility

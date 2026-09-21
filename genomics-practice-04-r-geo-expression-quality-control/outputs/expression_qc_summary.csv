@@ -1,0 +1,16 @@
+"metric","value"
+"probe_sets",54675
+"samples",120
+"tumor_samples",60
+"normal_samples",60
+"complete_pairs",60
+"missing_or_nonfinite_values",0
+"duplicate_probe_ids",0
+"duplicate_sample_ids",0
+"expression_min",3.0427
+"expression_max",14.8903
+"sample_median_min",6.02783
+"sample_median_max",6.02919
+"median_pair_correlation",0.948865732835039
+"samples_marked_for_review",8
+"samples_automatically_excluded",0
