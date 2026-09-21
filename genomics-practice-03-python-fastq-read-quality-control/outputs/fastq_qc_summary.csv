@@ -1,0 +1,4 @@
+mate,reads,bases,mean_phred,q30_percent,gc_percent,n_bases,n_percent,min_length,max_length,status
+R1,5000,505000,35.93,92.80,49.87,12,0.00238,101,101,PASS
+R2,5000,505000,35.53,91.53,49.74,1292,0.25584,101,101,REVIEW
+Combined,10000,1010000,35.73,92.16,49.81,1304,0.12911,101,101,REVIEW
