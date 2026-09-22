@@ -1,0 +1,5 @@
+"database","direction","annotated_background_genes","annotated_input_genes","tested_terms","significant_terms","experimental_supported_terms","representative_terms","project05_universe_genes","project05_robust_genes"
+"GO Biological Process","Higher in tumor",14764,371,1223,255,128,12,20848,1328
+"Reactome","Higher in tumor",10355,267,288,99,NA,12,20848,1328
+"GO Biological Process","Lower in tumor",14764,772,2391,756,320,12,20848,1328
+"Reactome","Lower in tumor",10355,552,497,52,NA,12,20848,1328

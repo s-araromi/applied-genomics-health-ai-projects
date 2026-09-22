@@ -1,0 +1,59 @@
+format-version: 1.2
+data-version: releases/2026-07-26
+
+[Term]
+id: GO:0007059
+name: chromosome segregation
+namespace: biological_process
+is_a: GO:0022402 ! cell cycle process
+
+[Term]
+id: GO:0140014
+name: mitotic nuclear division
+namespace: biological_process
+is_a: GO:0000280 ! nuclear division
+is_a: GO:1903047 ! mitotic cell cycle process
+
+[Term]
+id: GO:1903047
+name: mitotic cell cycle process
+namespace: biological_process
+is_a: GO:0022402 ! cell cycle process
+relationship: part_of GO:0000278 ! mitotic cell cycle
+
+[Term]
+id: GO:0000278
+name: mitotic cell cycle
+namespace: biological_process
+is_a: GO:0007049 ! cell cycle
+
+[Term]
+id: GO:0022402
+name: cell cycle process
+namespace: biological_process
+relationship: part_of GO:0007049 ! cell cycle
+
+[Term]
+id: GO:0000280
+name: nuclear division
+namespace: biological_process
+
+[Term]
+id: GO:0007049
+name: cell cycle
+namespace: biological_process
+
+[Term]
+id: GO:0007094
+name: mitotic spindle assembly checkpoint signaling
+namespace: biological_process
+
+[Term]
+id: GO:0001944
+name: vasculature development
+namespace: biological_process
+
+[Term]
+id: GO:0001525
+name: angiogenesis
+namespace: biological_process
