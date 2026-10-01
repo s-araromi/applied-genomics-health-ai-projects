@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Field-preserving reduced fixture from the current VCV000035835.90 archive,
+     retrieved from NCBI ClinVar on 2026-09-28. -->
+<ClinVarResult-Set>
+  <VariationArchive VariationID="35835" VariationName="NM_000492.4(CFTR):c.2002C&gt;T (p.Arg668Cys)" VariationType="single nucleotide variant" Accession="VCV000035835" Version="90" RecordType="classified" NumberOfSubmissions="31" NumberOfSubmitters="29" DateLastUpdated="2026-09-22">
+    <RecordStatus>current</RecordStatus>
+    <ClassifiedRecord>
+      <SimpleAllele AlleleID="44499" VariationID="35835">
+        <GeneList>
+          <Gene Symbol="CFTR" GeneID="1080" Source="submitted"/>
+        </GeneList>
+        <Name>NM_000492.4(CFTR):c.2002C&gt;T (p.Arg668Cys)</Name>
+        <CanonicalSPDI>NC_000007.14:117592168:C:T</CanonicalSPDI>
+        <VariantType>single nucleotide variant</VariantType>
+        <Location>
+          <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="7" Accession="NC_000007.14" start="117592169" stop="117592169" positionVCF="117592169" referenceAlleleVCF="C" alternateAlleleVCF="T"/>
+          <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="7" Accession="NC_000007.13" start="117232223" stop="117232223" positionVCF="117232223" referenceAlleleVCF="C" alternateAlleleVCF="T"/>
+        </Location>
+        <ProteinChange>R668C</ProteinChange>
+        <HGVSlist>
+          <HGVS Type="coding">
+            <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+          </HGVS>
+        </HGVSlist>
+        <XRefList>
+          <XRef Type="rs" ID="1800100" DB="dbSNP"/>
+        </XRefList>
+        <AlleleFrequencyList>
+          <AlleleFrequency Value="0.00849" Source="The Genome Aggregation Database (gnomAD), exomes"/>
+        </AlleleFrequencyList>
+      </SimpleAllele>
+      <RCVList>
+        <RCVAccession Accession="RCV000029490" Version="42">
+          <ClassifiedConditionList>
+            <ClassifiedCondition DB="MedGen" ID="C0010674">Cystic fibrosis</ClassifiedCondition>
+          </ClassifiedConditionList>
+        </RCVAccession>
+        <RCVAccession Accession="RCV000155473" Version="25">
+          <ClassifiedConditionList>
+            <ClassifiedCondition DB="MedGen" ID="CN169374">not specified</ClassifiedCondition>
+          </ClassifiedConditionList>
+        </RCVAccession>
+      </RCVList>
+      <Classifications>
+        <GermlineClassification DateLastEvaluated="2026-08-06" NumberOfSubmissions="31" NumberOfSubmitters="29" MostRecentSubmission="2026-09-22">
+          <ReviewStatus>criteria provided, conflicting classifications</ReviewStatus>
+          <Description>Conflicting classifications of pathogenicity</Description>
+          <Explanation DataSource="ClinVar" Type="public">Pathogenic (2); Uncertain significance (16); Benign (3); Likely benign (4)</Explanation>
+          <Citation Type="general"><ID Source="PubMed">1379210</ID></Citation>
+        </GermlineClassification>
+      </Classifications>
+    </ClassifiedRecord>
+  </VariationArchive>
+</ClinVarResult-Set>

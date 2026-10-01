@@ -36,6 +36,7 @@ reproducible code, results, interpretation, and limitations.
 | 04 | [Paired GEO expression-matrix quality assessment](genomics-practice-04-r-geo-expression-quality-control/) | R | NCBI GEO GSE19804 and GPL570 | Expression-matrix parsing, paired-sample validation, distributional QC, correlations, review flags, and reproducible graphics |
 | 05 | [Paired lung-tissue differential-expression analysis](genomics-practice-05-python-paired-differential-expression/) | Python | NCBI GEO GSE19804 and GPL570 | Paired statistical testing, BH correction, effect-size criteria, annotation integration, sensitivity analysis, and gene-level reporting |
 | 06 | [Functional enrichment of paired lung-tumor expression signals](genomics-practice-06-r-functional-enrichment/) | R | GSE19804-derived results, Gene Ontology, and Reactome | Platform-aware over-representation, ontology propagation, evidence sensitivity, FDR control, redundancy reduction, and pathway reporting |
+| 07 | [CFTR ClinVar classification-conflict audit](genomics-practice-07-python-clinvar-conflict-audit/) | Python | NCBI ClinVar, 2026-09-28 snapshot | E-utilities retrieval, JSON/XML parsing, versioned-record validation, conflict decomposition, evidence triage, and reproducible reporting |
 
 ## Repository organization
 
@@ -51,12 +52,13 @@ instructions, results, and relevant output files.
 ## Getting started
 
 Requirements and commands are documented within each project. For example,
-Project 06 requires R 4.3 or newer and uses only base R.
+Project 07 requires Python 3.10 or newer and Matplotlib.
 
 ```bash
-cd genomics-practice-06-r-functional-enrichment
-Rscript analyze_functional_enrichment.R
-Rscript tests/test_functional_enrichment.R
+cd genomics-practice-07-python-clinvar-conflict-audit
+python3 -m pip install -r requirements.txt
+python3 analyze_clinvar_conflicts.py
+python3 -m unittest discover -s tests -v
 ```
 
 ## Data ethics and reproducibility
