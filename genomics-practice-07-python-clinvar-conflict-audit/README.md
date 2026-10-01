@@ -192,4 +192,3 @@ preserve the verified 2026-09-28 result.
 3. NCBI ClinVar. [Review status](https://www.ncbi.nlm.nih.gov/clinvar/docs/review_status/)
 4. NCBI ClinVar. [Release cycle](https://www.ncbi.nlm.nih.gov/clinvar/docs/release_cycle/)
 5. NCBI. [Website and data usage policies](https://www.ncbi.nlm.nih.gov/home/about/policies/)
-

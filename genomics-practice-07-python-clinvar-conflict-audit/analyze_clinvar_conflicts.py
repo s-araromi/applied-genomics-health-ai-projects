@@ -155,6 +155,12 @@ def create_figure(records: list[dict], output_dir: Path) -> None:
     figure.tight_layout(rect=(0, 0.04, 1, 0.95))
     figure.savefig(output_dir / "clinvar_conflict_audit.png", dpi=220, bbox_inches="tight")
     figure.savefig(output_dir / "clinvar_conflict_audit.svg", bbox_inches="tight")
+    svg_path = output_dir / "clinvar_conflict_audit.svg"
+    svg_text = svg_path.read_text(encoding="utf-8")
+    svg_path.write_text(
+        "\n".join(line.rstrip() for line in svg_text.splitlines()).rstrip("\n") + "\n",
+        encoding="utf-8",
+    )
     plt.close(figure)
 
 
