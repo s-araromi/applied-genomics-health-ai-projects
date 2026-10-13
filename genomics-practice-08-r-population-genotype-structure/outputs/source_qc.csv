@@ -1,0 +1,10 @@
+"metric","value"
+"source_samples",2504
+"called_samples",2504
+"missing_genotypes",0
+"populations",26
+"super_populations",5
+"ALT_alleles",808
+"total_alleles",5008
+"informative_population_HWE_tests",17
+"population_tests_BH_q_below_0.05",0

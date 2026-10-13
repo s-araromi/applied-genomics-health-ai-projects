@@ -1,0 +1,2 @@
+"level","group","super_population","n_total","n_called","n_missing","n_GG","n_GA","n_AA","A_count","allele_number","A_frequency","carriers","carrier_fraction","carrier_wilson_lower","carrier_wilson_upper","observed_heterozygosity","expected_heterozygosity","heterozygote_deficit_F","hwe_exact_p","hwe_informative"
+"pooled","ALL","ALL",2504,2504,0,1893,414,197,808,5008,0.161341853035144,611,0.244009584664537,0.227587445010951,0.261215965790441,0.165335463258786,0.27062131898866,0.389052333804809,2.00811251442846e-67,TRUE

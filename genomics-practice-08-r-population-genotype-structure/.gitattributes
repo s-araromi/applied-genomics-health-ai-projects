@@ -1,0 +1,2 @@
+# Retain the original panel's trailing empty header fields and exact source hash.
+data/phase3_samples.panel -whitespace

@@ -1,0 +1,3 @@
+file,md5,bytes,source_url,release,retrieved_date
+data/rs4988235.phase3.vcf,cca56cb078c177f4ca3f419f58cee5c7,46078,https://1000genomes.s3.amazonaws.com/release/20130502/ALL.chr2.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz,20130502 / integrated v5a,2026-10-05
+data/phase3_samples.panel,7ee5675553088230530a7fe88c22f201,55156,https://1000genomes.s3.amazonaws.com/release/20130502/integrated_call_samples_v3.20130502.ALL.panel,20130502 / integrated v5a,2026-10-05

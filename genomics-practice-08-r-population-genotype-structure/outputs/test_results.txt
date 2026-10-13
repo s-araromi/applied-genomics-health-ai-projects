@@ -1,0 +1,18 @@
+ok 01 - authentic pinned file identities
+ok 02 - complete sample and source-label coverage
+ok 03 - observed genotype and source allele counts
+ok 04 - source super-population frequencies
+ok 05 - population partitions reconcile all genotype classes
+ok 06 - exact test agrees with exhaustive allele-position enumeration
+ok 07 - exact test is invariant to allele relabeling
+ok 08 - monomorphic populations are flagged rather than informative tests
+ok 09 - BH correction uses only the 17 informative population tests
+ok 10 - heterozygosity mixture identity and recorded effect size
+ok 11 - coarser source groups retain additional frequency heterogeneity
+ok 12 - carrier interval boundaries remain meaningful at zero observations
+ok 13 - invalid genotype formats and exact-test counts are rejected
+ok 14 - missing calls do not contribute chromosomes or carriers
+ok 15 - a changed genomic build or inconsistent source allele count fails
+ok 16 - sample metadata order does not change genotype assignment
+
+16 tests passed; authentic source fixture verified.

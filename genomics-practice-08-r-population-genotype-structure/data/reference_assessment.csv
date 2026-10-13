@@ -1,0 +1,4 @@
+reviewed_date,record,assessment,evidence_url
+2026-10-05,rs4988235,Active dbSNP report; not presented as withdrawn; GRCh37 forward G>A placement matches source,https://www.ncbi.nlm.nih.gov/snp/rs4988235
+2026-10-05,Phase 3 integrated v5a chr2 record,Source PASS; actual row retained; AC=808 and AN=5008 independently corroborated by dbSNP,https://1000genomes.s3.amazonaws.com/release/20130502/ALL.chr2.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz
+2026-10-05,1000 Genomes reuse terms,No embargo; publication citation and applicable EMBL-EBI terms; no universal CC license asserted,https://www.internationalgenome.org/IGSR_disclaimer/
