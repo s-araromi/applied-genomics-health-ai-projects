@@ -38,6 +38,7 @@ reproducible code, results, interpretation, and limitations.
 | 06 | [Functional enrichment of paired lung-tumor expression signals](genomics-practice-06-r-functional-enrichment/) | R | GSE19804-derived results, Gene Ontology, and Reactome | Platform-aware over-representation, ontology propagation, evidence sensitivity, FDR control, redundancy reduction, and pathway reporting |
 | 07 | [CFTR ClinVar classification-conflict audit](genomics-practice-07-python-clinvar-conflict-audit/) | Python | NCBI ClinVar, 2026-09-28 snapshot | E-utilities retrieval, JSON/XML parsing, versioned-record validation, conflict decomposition, evidence triage, and reproducible reporting |
 | 08 | [Population genotype structure audit](genomics-practice-08-r-population-genotype-structure/) | R | 1000 Genomes Phase 3 integrated v5a, rs4988235 and all 2,504 samples | Genotype validation, stratified exact HWE tests, BH correction, carrier intervals, frequency-mixture decomposition, and reproducible reporting |
+| 09 | [Cross-cohort lung-tumor expression replication](genomics-practice-09-python-cross-cohort-expression-replication/) | Python | NCBI GEO GSE19804/GPL570 and GSE10072/GPL96 | Cross-platform gene mapping, paired discovery and validation, cluster-robust sensitivity analysis, effect synthesis, heterogeneity assessment, and automated testing |
 
 ## Repository organization
 
@@ -52,14 +53,15 @@ instructions, results, and relevant output files.
 
 ## Getting started
 
-Requirements and commands are documented within each project. Project 08
-requires R 4.3 or newer and only base R packages. Its pinned public-data subset
-supports offline reproduction; optional retrieval uses Python 3.10 or newer.
+Requirements and commands are documented within each project. Project 09
+requires Python 3.10 or newer. Its first analysis run downloads and validates
+the pinned public GEO matrices and platform annotations.
 
 ```bash
-cd genomics-practice-08-r-population-genotype-structure
-Rscript --vanilla tests/test_genotype_functions.R
-Rscript --vanilla analyze_population_structure.R
+cd genomics-practice-09-python-cross-cohort-expression-replication
+python3 -m pip install -r requirements.txt
+python3 analyze_cross_cohort_replication.py
+python3 -m unittest discover -s tests -v
 ```
 
 ## Data ethics and reproducibility

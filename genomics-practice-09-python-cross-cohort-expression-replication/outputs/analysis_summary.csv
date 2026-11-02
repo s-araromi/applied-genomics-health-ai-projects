@@ -1,0 +1,13 @@
+metric,value
+common_entrez_genes,12502
+discovery_complete_pairs,60
+validation_complete_pairs,33
+validation_all_samples,107
+validation_participants,74
+discovery_candidates,990
+candidate_same_direction,956
+replicated_genes,768
+replication_fraction,0.775757575757576
+all_gene_spearman_rho,0.743149606347253
+all_gene_spearman_p,0
+candidate_pearson_r,0.887386585760095

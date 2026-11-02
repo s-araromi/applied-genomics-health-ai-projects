@@ -1,0 +1,5 @@
+file,bytes,md5,source_url,accession,platform,retrieved_date
+GSE19804_series_matrix.txt.gz,21530998,c817eb7b8b74d1cbdd4db7580fb9ea08,https://ftp.ncbi.nlm.nih.gov/geo/series/GSE19nnn/GSE19804/matrix/GSE19804_series_matrix.txt.gz,GSE19804,GPL570,2026-10-12
+GPL570.annot.gz,8471521,be9fdbdb62e45257f2d3177a32f9a518,https://ftp.ncbi.nlm.nih.gov/geo/platforms/GPLnnn/GPL570/annot/GPL570.annot.gz,GPL570,GPL570,2026-10-12
+GSE10072_series_matrix.txt.gz,13021909,73273a4efa1d8e63777d7792b9bbabaf,https://ftp.ncbi.nlm.nih.gov/geo/series/GSE10nnn/GSE10072/matrix/GSE10072_series_matrix.txt.gz,GSE10072,GPL96,2026-10-12
+GPL96.annot.gz,4522748,a3c03c05e7b77d2305b84ba5e46181ec,https://ftp.ncbi.nlm.nih.gov/geo/platforms/GPLnnn/GPL96/annot/GPL96.annot.gz,GPL96,GPL96,2026-10-12

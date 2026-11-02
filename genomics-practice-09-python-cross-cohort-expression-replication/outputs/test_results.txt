@@ -1,0 +1,19 @@
+test_authentic_cohort_dimensions_and_tissue_counts (test_expression_replication.ExpressionReplicationTests.test_authentic_cohort_dimensions_and_tissue_counts) ... ok
+test_bh_values_match_independent_definition (test_expression_replication.ExpressionReplicationTests.test_bh_values_match_independent_definition) ... ok
+test_clustered_ols_matches_scalar_sandwich_calculation (test_expression_replication.ExpressionReplicationTests.test_clustered_ols_matches_scalar_sandwich_calculation) ... ok
+test_committed_outputs_reconcile_summary_and_selection (test_expression_replication.ExpressionReplicationTests.test_committed_outputs_reconcile_summary_and_selection) ... ok
+test_complete_pairs_are_reconstructed_by_participant_id (test_expression_replication.ExpressionReplicationTests.test_complete_pairs_are_reconstructed_by_participant_id) ... ok
+test_fixed_effect_meta_analysis_reconciles_weights (test_expression_replication.ExpressionReplicationTests.test_fixed_effect_meta_analysis_reconciles_weights) ... ok
+test_fixture_manifest_matches_authentic_subset_bytes (test_expression_replication.ExpressionReplicationTests.test_fixture_manifest_matches_authentic_subset_bytes) ... ok
+test_missing_source_fails_when_download_disabled (test_expression_replication.ExpressionReplicationTests.test_missing_source_fails_when_download_disabled) ... ok
+test_pair_order_is_invariant_to_metadata_row_order (test_expression_replication.ExpressionReplicationTests.test_pair_order_is_invariant_to_metadata_row_order) ... ok
+test_paired_effects_match_genuine_fixture_counts (test_expression_replication.ExpressionReplicationTests.test_paired_effects_match_genuine_fixture_counts) ... ok
+test_platform_annotation_and_gene_mapping (test_expression_replication.ExpressionReplicationTests.test_platform_annotation_and_gene_mapping) ... ok
+test_result_thresholds_are_applied_exactly (test_expression_replication.ExpressionReplicationTests.test_result_thresholds_are_applied_exactly) ... ok
+test_source_manifest_is_pinned_and_unique (test_expression_replication.ExpressionReplicationTests.test_source_manifest_is_pinned_and_unique) ... ok
+test_wrong_series_identity_is_rejected (test_expression_replication.ExpressionReplicationTests.test_wrong_series_identity_is_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.178s
+
+OK

@@ -1,0 +1,5 @@
+reviewed_date,record,status,assessment,record_url
+2026-10-12,GSE19804,Public,Active public GEO Series; 120 samples; GPL570; source matrix identity verified,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE19804
+2026-10-12,GSE10072,Public,Active public GEO Series; 107 final expression profiles; GPL96; source matrix identity verified,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE10072
+2026-10-12,GPL570,Public,Active public GEO Platform annotation; exact downloaded snapshot pinned,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL570
+2026-10-12,GPL96,Public,Active public GEO Platform annotation; exact downloaded snapshot pinned,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL96

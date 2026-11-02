@@ -1,0 +1,5 @@
+file,bytes,md5,source_accession,description
+fixtures/GPL570_four_genes.annot.gz,2513,cc8a8e4b21b773be83b9334372ec27d2,GPL570,Original annotation headers and four authentic probe rows
+fixtures/GPL96_four_genes.annot.gz,2502,49322218ff7488f143971152515f1f41,GPL96,Original annotation headers and four authentic probe rows
+fixtures/GSE10072_four_genes.txt.gz,8801,2c0a4af23753964ad9bdb8a954f03a63,GSE10072,Original series metadata and four authentic expression rows across 107 samples
+fixtures/GSE19804_four_genes.txt.gz,7417,e611fad50bd814d02b2e8cfdf695b728,GSE19804,Original series metadata and four authentic expression rows across 120 samples
