@@ -1,0 +1,3 @@
+resource,checked_on,status,record_url,evidence,assessment
+GSE52778,2026-10-19,Public on Jan 01 2014,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE52778,GSE52778_status_2026-10-19.soft,Active public series; exact accession and 16 expected sample IDs checked; no suppressed replacement used
+airway 1.32.0 / Bioconductor 3.23,2026-10-19,Versioned archive retrieved and SHA-256 verified,https://bioconductor.org/packages/3.23/data/experiment/html/airway.html,archive_pin.json; airway_DESCRIPTION,Genuine full gene matrix for 8 selected libraries; historical GRCh37.p13 Ensembl75; not current clinical annotation

@@ -1,0 +1,16 @@
+{
+  "package": "airway",
+  "version": "1.32.0",
+  "bioconductor_release": "3.23",
+  "archive_sha256": "829f654fc8075ac9d810574e8a8d4672e69e847c45fa2ce598d1ffbc30c7fe19",
+  "archive_bytes": 24756071,
+  "primary_url": "https://bioconductor.org/packages/3.23/data/experiment/src/contrib/airway_1.32.0.tar.gz",
+  "downloaded_url": "https://bioconductor.posit.co/packages/3.23/data/experiment/src/contrib/airway_1.32.0.tar.gz",
+  "archive_commit": "deb0a4f",
+  "retrieved_on": "2026-10-19",
+  "geo_accession": "GSE52778",
+  "gene_rows": 63677,
+  "sample_columns": 8,
+  "count_reference": "GRCh37.p13 / Ensembl release 75",
+  "raw_reads_realigned_here": false
+}

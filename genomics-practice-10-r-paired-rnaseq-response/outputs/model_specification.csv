@@ -1,0 +1,7 @@
+"model","samples","design_columns","residual_df","dispersion_fit"
+"paired",8,5,3,"parametric"
+"unpaired",8,2,6,"parametric"
+"omit_N052611",6,4,2,"parametric"
+"omit_N061011",6,4,2,"parametric"
+"omit_N080611",6,4,2,"parametric"
+"omit_N61311",6,4,2,"parametric"

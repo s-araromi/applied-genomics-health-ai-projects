@@ -1,0 +1,17 @@
+"metric","value"
+"source_gene_rows",63677
+"samples",8
+"donors",4
+"retained_genes",16139
+"point_null_fdr_below_0_05",4068
+"primary_1_5_fold_fdr_below_0_05",600
+"primary_up",352
+"primary_down",248
+"primary_direction_stable_all_refits",600
+"primary_selected_in_all_refits",359
+"unpaired_primary_selected",292
+"paired_unpaired_overlap",289
+"primary_missing_p",0
+"pca_pc1_variance_fraction",0.485761433468487
+"pca_pc2_variance_fraction",0.232739053686487
+"lfc_spearman_paired_unpaired",0.994645125544377

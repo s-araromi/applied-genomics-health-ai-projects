@@ -1,0 +1,26 @@
+ok 01 - all committed source identities match SHA-256 pins
+ok 02 - complete authentic gene and sample coverage
+ok 03 - source library totals agree with the pinned airway object
+ok 04 - GEO status snapshot is public and includes selected samples
+ok 05 - metadata reordering preserves count-to-sample assignment
+ok 06 - fractional, missing and negative counts fail before fitting
+ok 07 - duplicate gene and sample identities are rejected
+ok 08 - missing pair and albuterol contamination are rejected
+ok 09 - unrecognized treatment and sample mismatch are rejected
+ok 10 - paired design is estimable with three residual degrees of freedom
+ok 11 - count filter retains the verified authentic family
+ok 12 - gene annotation preserves stable IDs and historical source labels
+ok 13 - result rows reconcile exactly to the retained gene family
+ok 14 - threshold hypothesis is stricter than the point-null hypothesis
+ok 15 - full-family BH adjustment includes unavailable tests as non-rejections
+ok 16 - Wald confidence intervals bracket each reported effect
+ok 17 - normalization factors and fragment totals are valid
+ok 18 - PCA uses 500 genuine genes and preserves centered sample geometry
+ok 19 - sample distances are symmetric with a zero diagonal
+ok 20 - each donor omission covers the same complete testing family
+ok 21 - direction and significance sensitivity agree with exported refits
+ok 22 - descriptive donor ratios reproduce normalized count contrasts
+ok 23 - source corruption is detected before analysis
+ok 24 - threshold p-values preserve the original method in all six fits
+
+24 tests passed; authentic source and analysis outputs verified.

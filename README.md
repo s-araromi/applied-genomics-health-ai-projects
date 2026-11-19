@@ -39,6 +39,7 @@ reproducible code, results, interpretation, and limitations.
 | 07 | [CFTR ClinVar classification-conflict audit](genomics-practice-07-python-clinvar-conflict-audit/) | Python | NCBI ClinVar, 2026-09-28 snapshot | E-utilities retrieval, JSON/XML parsing, versioned-record validation, conflict decomposition, evidence triage, and reproducible reporting |
 | 08 | [Population genotype structure audit](genomics-practice-08-r-population-genotype-structure/) | R | 1000 Genomes Phase 3 integrated v5a, rs4988235 and all 2,504 samples | Genotype validation, stratified exact HWE tests, BH correction, carrier intervals, frequency-mixture decomposition, and reproducible reporting |
 | 09 | [Cross-cohort lung-tumor expression replication](genomics-practice-09-python-cross-cohort-expression-replication/) | Python | NCBI GEO GSE19804/GPL570 and GSE10072/GPL96 | Cross-platform gene mapping, paired discovery and validation, cluster-robust sensitivity analysis, effect synthesis, heterogeneity assessment, and automated testing |
+| 10 | [Paired RNA-seq glucocorticoid response analysis](genomics-practice-10-r-paired-rnaseq-response/) | R | NCBI GEO GSE52778; Bioconductor airway 1.32.0 | Donor-adjusted negative-binomial modelling, effect-threshold tests, FDR control, VST/PCA, design sensitivity, and donor-omission refits |
 
 ## Repository organization
 
@@ -53,15 +54,17 @@ instructions, results, and relevant output files.
 
 ## Getting started
 
-Requirements and commands are documented within each project. Project 09
-requires Python 3.10 or newer. Its first analysis run downloads and validates
-the pinned public GEO matrices and platform annotations.
+Requirements and reproduction commands are documented within each project.
+Project 10 requires R 4.3 or newer and compatible Bioconductor DESeq2 and
+SummarizedExperiment packages, plus digest. The genuine pinned count and
+metadata exports support offline analysis after dependencies are installed.
+Optional source reconstruction downloads approximately 25 MB.
 
 ```bash
-cd genomics-practice-09-python-cross-cohort-expression-replication
-python3 -m pip install -r requirements.txt
-python3 analyze_cross_cohort_replication.py
-python3 -m unittest discover -s tests -v
+cd genomics-practice-10-r-paired-rnaseq-response
+Rscript --vanilla install_dependencies.R
+Rscript --vanilla tests/test_rnaseq.R
+Rscript --vanilla analyze_rnaseq.R
 ```
 
 ## Data ethics and reproducibility

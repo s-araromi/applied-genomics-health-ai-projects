@@ -1,0 +1,7 @@
+.Rhistory
+.RData
+.Rproj.user/
+retrieved_data/
+rerun_outputs/
+validation_runs/
+.validation-venv/
