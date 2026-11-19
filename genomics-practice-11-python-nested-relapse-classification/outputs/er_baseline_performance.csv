@@ -1,0 +1,9 @@
+metric,estimate,ci_lower,ci_upper,model
+roc_auc,0.47598138993893574,0.4036929339924397,0.5473182611224193,er_status_only
+average_precision,0.32771320311038854,0.2929014625523999,0.39425016355596165,er_status_only
+brier_score,0.2264599578706826,0.22421369084942508,0.2287290672939926,er_status_only
+balanced_accuracy_0.5,0.5,0.5,0.5,er_status_only
+sensitivity_0.5,0.0,0.0,0.0,er_status_only
+specificity_0.5,1.0,1.0,1.0,er_status_only
+calibration_intercept,-0.9075483324478788,-2.858115375815323,0.915870034744333,er_status_only
+calibration_slope,-0.4081824677470178,-3.43427076533465,2.43683278334771,er_status_only

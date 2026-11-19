@@ -1,0 +1,4 @@
+record,filename,url,retrieved_utc,bytes,sha256
+GSE2034 Series Matrix,GSE2034_series_matrix.txt.gz,https://ftp.ncbi.nlm.nih.gov/geo/series/GSE2nnn/GSE2034/matrix/GSE2034_series_matrix.txt.gz,2026-10-26,14344700,f6a99c62f0a291858f14806ad7b5faf1da159f88630d11cfe994815ff3bf9ea3
+GSE2034 family SOFT,GSE2034_family.soft.gz,https://ftp.ncbi.nlm.nih.gov/geo/series/GSE2nnn/GSE2034/soft/GSE2034_family.soft.gz,2026-10-26,65256217,1fa927dc72870434ba799041dcb6dcd292cbb77ab1eac203ea8e5d51272cd279
+GPL96 annotation,GPL96.annot.gz,https://ftp.ncbi.nlm.nih.gov/geo/platforms/GPLnnn/GPL96/annot/GPL96.annot.gz,2026-10-26,4522748,88e0b22362bac779eb220b3b185c80faa6510a92b9358eaad159a561ab4351c4

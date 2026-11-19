@@ -1,0 +1,4 @@
+filename,description,bytes,sha256
+clinical_metadata.csv,Clinical table and disclosed 60-month endpoint for all 286 public GSM accessions,18709,a2a0797afe785a9cc49a48345a41d634c3a114fdca75cdc1ba934c9468cbca84
+representative_probes.csv,Outcome-blind representative-probe map for 12502 unambiguous Entrez Gene IDs,518484,6233a2140d05feeda66465151dfe787d32fb3213f38d6242005ce2177021d30f
+expression_genes.csv.gz,Log2 transformed gene-by-sample matrix for 12502 genes and 286 public samples,21336257,e3f8b80c251d4a73d589ced72041a01afd50d7542ac2dcbbfbab3ef26ebc9400

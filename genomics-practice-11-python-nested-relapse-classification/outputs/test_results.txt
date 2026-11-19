@@ -1,0 +1,21 @@
+test_authentic_subset_dimensions (test_breast_relapse_ml.AuthenticDataTests.test_authentic_subset_dimensions) ... ok
+test_expression_values_are_log_scale_and_finite (test_breast_relapse_ml.AuthenticDataTests.test_expression_values_are_log_scale_and_finite) ... ok
+test_five_year_endpoint_counts (test_breast_relapse_ml.AuthenticDataTests.test_five_year_endpoint_counts) ... ok
+test_public_sample_accessions_reconcile (test_breast_relapse_ml.AuthenticDataTests.test_public_sample_accessions_reconcile) ... ok
+test_reported_relapse_count_is_preserved (test_breast_relapse_ml.AuthenticDataTests.test_reported_relapse_count_is_preserved) ... ok
+test_representative_probe_mapping_is_unique (test_breast_relapse_ml.AuthenticDataTests.test_representative_probe_mapping_is_unique) ... ok
+test_60_month_endpoint_respects_censoring_and_late_events (test_breast_relapse_ml.EndpointTests.test_60_month_endpoint_respects_censoring_and_late_events) ... ok
+test_invalid_relapse_is_rejected (test_breast_relapse_ml.EndpointTests.test_invalid_relapse_is_rejected) ... ok
+test_aggregate_predictions_averages_repeats (test_breast_relapse_ml.ModellingTests.test_aggregate_predictions_averages_repeats) ... ok
+test_bootstrap_metrics_has_ordered_intervals (test_breast_relapse_ml.ModellingTests.test_bootstrap_metrics_has_ordered_intervals) ... ok
+test_feature_stability_uses_total_outer_models (test_breast_relapse_ml.ModellingTests.test_feature_stability_uses_total_outer_models) ... ok
+test_nested_cv_has_one_prediction_per_repeat (test_breast_relapse_ml.ModellingTests.test_nested_cv_has_one_prediction_per_repeat) ... ok
+test_nested_feature_selection_never_exceeds_training_grid (test_breast_relapse_ml.ModellingTests.test_nested_feature_selection_never_exceeds_training_grid) ... ok
+test_duplicate_samples_are_rejected (test_breast_relapse_ml.ValidationTests.test_duplicate_samples_are_rejected) ... ok
+test_nonfinite_expression_is_rejected (test_breast_relapse_ml.ValidationTests.test_nonfinite_expression_is_rejected) ... ok
+test_sha256_is_stable (test_breast_relapse_ml.ValidationTests.test_sha256_is_stable) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 3.276s
+
+OK

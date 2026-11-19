@@ -1,0 +1,12 @@
+metric,value
+source_samples,286.0
+eligible_samples,276.0
+five_year_events,95.0
+five_year_non_events,181.0
+early_censored_excluded,10.0
+genes_available,12502.0
+outer_models,15.0
+stable_genes_selected_at_least_80_percent,11.0
+expression_auroc,0.6500145391102065
+er_only_auroc,0.47598138993893574
+prevalence_baseline_brier,0.22573053153441172

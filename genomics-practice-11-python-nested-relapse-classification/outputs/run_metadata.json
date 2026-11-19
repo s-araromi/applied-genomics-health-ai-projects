@@ -1,0 +1,18 @@
+{
+  "random_seed": 20261026,
+  "outer_cv": "5 folds x 3 repeats",
+  "inner_cv": "4-fold stratified",
+  "bootstrap_iterations": 2000,
+  "endpoint_months": 60,
+  "python": "3.14.6",
+  "platform": "macOS-27.2.1-arm64-arm-64bit-Mach-O",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "scipy": "1.17.0",
+  "scikit_learn": "1.8.0",
+  "input_sha256": {
+    "clinical_metadata.csv": "a2a0797afe785a9cc49a48345a41d634c3a114fdca75cdc1ba934c9468cbca84",
+    "expression_genes.csv.gz": "e3f8b80c251d4a73d589ced72041a01afd50d7542ac2dcbbfbab3ef26ebc9400",
+    "representative_probes.csv": "6233a2140d05feeda66465151dfe787d32fb3213f38d6242005ce2177021d30f"
+  }
+}

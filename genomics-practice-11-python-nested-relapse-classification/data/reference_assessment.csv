@@ -1,0 +1,4 @@
+record,accession,status_checked_utc,public_status,platform,assessment
+GEO Series,GSE2034,2026-10-26,active public record,GPL96,"Record describes 180 relapse-free patients and 106 patients with distant metastasis; the deposited clinical table contains 286 rows and encodes 107 relapse events, so this project uses and labels the table's relapse field rather than silently equating it with the summary's distant-metastasis count."
+GEO Platform,GPL96,2026-10-26,active public record,Affymetrix Human Genome U133A Array,"Annotation provides 22283 probe records; 12502 unambiguous Entrez Gene IDs remained after deterministic representative-probe selection."
+GEO sample set,GSM36777-GSM37062,2026-10-26,286 public sample accessions,GPL96,"Expression columns, Series Matrix metadata, and the patient clinical table reconciled one-to-one."
